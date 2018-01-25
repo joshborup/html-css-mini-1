@@ -1,3 +1,9 @@
+body {
+    
+    background: #ddd;
+
+}
+
 header {
     background: black;
     height: 100px;
@@ -26,41 +32,40 @@ header div:nth-child(2) {
 
 }
 
-.main_content {
+main {
     width: 800px;
     background: black;
-    height: 400px;
     margin: 150px auto 0px;
     padding: 40px;
     
 }
 
-.main_content div:nth-child(1), .main_content div:nth-child(2){
+main div:nth-child(1), main div:nth-child(2){
     background: white;
     margin: 25px auto;
     
     
 }
 
-.main_content div:nth-child(1){
-    width: 600px;
+main div:nth-child(1){
+    width: 80%;
     height: 50px;
 }
 
-.main_content div:nth-child(2){
-    height: 100px;
-    width: 500px;
+main div:nth-child(2){
+    height: 50px;
+    width: 60%;
 
 }
-.main_content div:nth-child(3){
+main div:nth-child(3){
     width: 100%;
     text-align: center;
 }
 
-.main_content div div:nth-child(1), .main_content div div:nth-child(2){
+main div div:nth-child(1), main div div:nth-child(2){
     display: inline-block;
     height: 50px;
-    width: 275px;
+    width: 35%;
     margin-left: 5px;
     margin-right: 5px;
     border-radius: 30px;    
