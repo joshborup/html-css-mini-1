@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(135deg,rgba(13, 13, 13, 0.7),rgba(13,13,13,.7)), url(background.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+header {
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+header img {
+    width: 300px;
+}
+
+
+header ul {
+display: inline-block;
+float: right;
+overflow: hidden;
+}
+
+header ul li {
+    display: inline-block;
+    float: right;
+    color: white;
+    width: 80px;
+    margin: 15px 10px 10px;
+    font-size: 24px;
+}
+
+main {
+
+    margin-top: 200px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: white;
+    margin: 20px 0px;
+}
+
+h1 {
+
+    
+    font-size: 72px;
+    
+
+}
+
+h2{
+    font-size: 24px;
+}
+
+
+
